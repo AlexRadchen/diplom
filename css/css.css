@@ -1,0 +1,96 @@
+@charset "utf-8";
+* {margin:0px; padding:0px; box-sizing:border-box; }
+html {overflow-y:scroll; }
+*:focus {outline:none; }
+::selection {color:#fff;background:#999; }
+::-moz-selection {color:#fff;background:#999;}
+ul {list-style:none; }
+img {max-width:100%; height:auto; -webkit-user-select:none; }
+p {padding:10px 0; line-height:150%; }
+
+.break_word {
+overflow-wrap: break-word;
+word-wrap: break-word;
+word-break: break-all;
+}
+
+.clear {clear:both; }
+.clear:before,
+.clear:after {content:" "; display:table; } 
+.clear:after {clear:both; }
+.hide {display:none; }
+.center {margin:auto; text-align:center; }
+.line {display:block; height:0.5px; margin:7px 0; border-bottom:#e3e3e3 1px solid; }
+.right {float:right; }
+
+body {padding:0 10px; text-align:center; font-family:Verdana, Geneva, sans-serif; font-style:normal; font-weight:normal; font-size:14px; line-height:22px; color:#2b2b2b; background-color:#FCFCFC; }
+
+a {color:#2b2b2b; text-decoration:underline; }
+
+h1, h2, h3 {display:block; margin:0px; padding:15px 0px 20px 0px; font-size:30px; font-weight:100; color:#2b2b2b; font-family:Verdana, Geneva, sans-serif; letter-spacing:0em; line-height:130%; font-weight: 700; }
+h2 {font-size:25px; }
+h3 {font-size:20px; }
+
+
+#o {display:inline-block; padding:5px; font-weight:normal; color:green; }
+#u {display:inline-block; padding:5px; font-weight:normal; color:red; }
+
+table {border-collapse:collapse; margin:auto; }
+table tr td {padding:10px; line-height:120%; }
+
+.table {background-color:#FFF; }
+.table tr td {border:1px solid #aaa; }
+.table tr.title {background-color:#CCC; font-weight:bold; }
+
+input, select, textarea {padding:5px 9px; font-family:Verdana, Geneva, sans-serif; color:#444; }
+textarea {width:400px; min-height:80px; }
+label:hover {cursor:pointer; color:#444; }
+input[type=checkbox],
+input[type=radio] {width:auto; padding:0px 0px 0px 10px; margin:0px 0px 0px 0px;}
+textarea {word-wrap:break-word; resize:vertical; }
+button {cursor:pointer; border:none; }
+
+.button {display:inline-block; padding:7px 15px; font-size:14px; text-decoration:none; font-weight:bold; font-family:Verdana, Geneva, sans-serif; color:#FCFCFC!important; cursor:pointer; background-color:#222; border:#222 1px solid; }
+.button:hover {background-color:#000; }
+.button_small {padding:1px 9px; font-size:12px; }
+
+
+#header {margin:0 -10px 20px -10px; text-align:left; color:#FFF; background-color:#1a5978e6; 
+	display:flex; 	
+	flex-direction:row; 	
+	justify-content:flex-start; 
+	align-items:stretch;	
+	flex-wrap:wrap;
+	align-content:stretch;	
+}
+#header .logo {width:50%; padding:20px; font-size:24px; font-weight:bold; }
+#header .menu {width:50%; padding:20px; font-size:18px; text-align:right; }
+#header a {color:#FFF; }
+
+#menu  {margin:0 0 20px 0; }
+#menu a {display:inline-block; margin:2px; padding:7px 15px; background-color:#3d9db3; color:#FFF; font-weight:bold; font-size:15px; text-decoration:none; }
+
+.table_client tr.title {background-color:#900; color:#FFF; }
+.table_auto tr.title {background-color:#009; color:#FFF; }
+.table_tahograf tr.title {background-color:#000; color:#FFF; }
+.table_acts tr.title {background-color:#F90; color:#FFF; }
+
+.flex_box {
+	display:flex; 	
+	flex-direction:row; 	
+	justify-content:center; 
+	align-items:stretch;	
+	flex-wrap:wrap;
+	align-content:stretch;	
+}
+.flex_box .box {max-width:700px; text-align:left; margin:0 20px 20px 0; padding:20px; box-shadow: 2px 2px 9px #ccc; border: 1px solid rgba(147, 184, 189,0.8); 
+box-shadow: 0pt 2px 5px rgb(105 108 109 / 70%), 0px 0px 8px 5px rgb(208 223 226 / 40%) inset;
+    -webkit-box-shadow: 5px;}
+.flex_box .box h3 {text-align:center; margin:0 0 20px 0; padding:0; }
+.box_1 {background-color:#f7f7f7; } .box_1 strong {display:inline-block; width:100px; text-align:right; }
+.box_2 {background-color:#f7f7f7; } .box_2 strong {display:inline-block; width:100px; text-align:right; }
+.box_3 {background-color:#f7f7f7; } .box_3 strong {display:inline-block; width:100px; text-align:right; }
+.box_4 {background-color:#f7f7f7; }
+.flex_box .box .status {margin:0 0 0 100px; }
+
+#copy {padding:10px; text-align:center; color:#555; }
